@@ -1,4 +1,7 @@
 import sys, random
+from colorama import init as colorama_init
+from colorama import Fore
+from colorama import Style
 
 fName = ("Baby Oil", "Bad News", "Big Burps", "Beenie-Weenie",
          "Lady Bug", "Jumbo Jim", "Little John", "Slurmy Slurm", "Schlomo", "Red Five", "Gold Leader")
@@ -12,7 +15,7 @@ while(repeat):
     firstName = random.choice(fName)
     lastName = random.choice(lName)
 
-    print(firstName + " " + lastName)
+    print(f"{Fore.RED}{firstName} {lastName}{Style.RESET_ALL}")
 
     continueAnswer = input("Would you like a new name? ").lower()
 
