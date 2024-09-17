@@ -1,8 +1,8 @@
 # Psych like Name Generator
 
-### From Impractical Python Projects by No Starch Press
+#### From Impractical Python Projects by No Starch Press
 
-### Author: Lee Vaughan
+#### Author: Lee Vaughan
 
 ## Pseudocode:
 
