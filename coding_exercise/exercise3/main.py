@@ -9,9 +9,6 @@ The output of your code should be as below:
 user_entries = ['10', '19.1', '20']
 
 #My Code
-float_entries = []
-
-for entry in user_entries:
-    float_entries.append(float(entry))
+float_entries = [float(entry) for entry in user_entries]
 
 print(float_entries)
