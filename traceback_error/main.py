@@ -13,6 +13,8 @@ def function_b(x, y):
 def function_c(x, y):
     print("Start c()")
     #Code with error: 42/0
+
+    #Allowed the user to enter any two numbers for the division, instead of a hard coded 42/0
     try:
         x / y
     except ZeroDivisionError:
